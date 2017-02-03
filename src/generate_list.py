@@ -1,9 +1,8 @@
 import random
 
 def generate_list():
-    alist = [x for x in range(random.randint(-10,10))]
-    b = sum(alist)
-    assert (x > 0 ),"cannnot be null"
+    alist = [x for x in range(random.randint(1,10))]
+    assert (x >= 0 ),"cannnot be null"
     return alist
     
     """
@@ -14,7 +13,6 @@ def printIT():
     
 def main():
     printIT()
-    print(b)
     
     """
     If this script file is called, it will run main() directly
